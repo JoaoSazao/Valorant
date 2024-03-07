@@ -1,0 +1,58 @@
+@import url('./styles.css');
+
+.container_nav {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 11rem;
+  align-items: center;
+  background-color: var(--secondary-color);
+  max-width: 520px;
+  padding: 1.3rem;
+  gap: 3rem;
+}
+
+.nav_links {
+  text-decoration: none;
+  color: var(--terciary-color);
+  font-family: var(--principal-font);
+  font-weight: 400;
+  font-size: 12px;
+  transition: .6s;
+}
+
+.nav_links:hover {
+  color: var(--primary-color);
+  transition: .6s;
+  transform: scale(1.1);
+}
+
+/* TABLETS */
+
+@media (max-width: 768px) {
+  .principal {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container_nav {
+    margin-left: 7rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 360px) {
+  .principal {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .nav_links {
+    display: none;
+  }
+
+  .container_nav {
+    margin-left: 3rem;
+    max-width: 65%;
+  }
+}

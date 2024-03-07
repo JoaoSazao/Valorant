@@ -1,0 +1,30 @@
+@import url('styles.css');
+
+.p-footer {
+  color: var(--terciary-color);
+  font-family: var(--principal-font);
+  font-weight: 200;
+  font-size: 12px;
+  margin-top: 5rem;
+  margin-left: 11rem;
+}
+
+/* TABLETS */
+
+@media (max-width: 768px) {
+  .p-footer {
+    margin-left: 7rem;
+    font-size: 18px;
+    margin-top: 18rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 360px) {
+  .p-footer {
+    margin-left: 3rem;
+    margin-top: 28rem;
+    font-size: 18px;
+  }
+}

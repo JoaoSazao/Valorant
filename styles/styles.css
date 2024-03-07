@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #FF4655;
+  --secondary-color: #111111;
+  --terciary-color: #FFFFFF;
+  --principal-font: "Source Sans 3", sans-serif;
+}
+
+.principal {
+  background-image: url('../assets/background/background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media (max-width: 768px) {
+  .principal {
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+  }
+}
